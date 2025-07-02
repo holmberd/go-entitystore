@@ -4,8 +4,6 @@
 
 A generic, Redis-backed entity store for Go to efficiently manage and persist entities with flexible key construction and namespacing.
 
----
-
 ## Features
 - Fast, in-memory Redis backend (supports [go-redis](https://github.com/go-redis/redis))
 - Generic type support for your own entity types
@@ -14,14 +12,12 @@ A generic, Redis-backed entity store for Go to efficiently manage and persist en
 - Designed for easy unit and integration testing
 - Minimal dependencies, idiomatic Go API
 
----
-
 ## Installation
 
 ```sh
 go get github.com/holmberd/go-entitystore
 ```
-
+---
 ## Example Usage
 
 ```Go
